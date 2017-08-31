@@ -88,7 +88,7 @@ public class DoctorKafkaMain {
     operator.start();
 
     // start the web UI
-    int webPort = 8000;
+    int webPort = 9311;
     DoctorKafkaWebServer webServer = new DoctorKafkaWebServer(webPort);
     webServer.start();
 
