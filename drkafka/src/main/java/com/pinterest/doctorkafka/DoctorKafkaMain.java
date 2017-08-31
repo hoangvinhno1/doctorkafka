@@ -88,7 +88,7 @@ public class DoctorKafkaMain {
     operator.start();
 
     // start the web UI
-    int webPort = ReplicaStatsManager.config.getWebserverPort();
+    int webPort = 8000;
     DoctorKafkaWebServer webServer = new DoctorKafkaWebServer(webPort);
     webServer.start();
 
